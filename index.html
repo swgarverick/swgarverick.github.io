@@ -5,13 +5,22 @@
 body{
 	background-color:#4ABDAC;
 }
-	
+.button{
+	border-radius:12px;
+	background-color:#F7B733; 
+	width:125px; 
+	height:75px;
+	cursor:pointer;
+}
+.button:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
 </style>
 </head>
 <body>
 <h1 id="Title" style="text-align:center; font-size:50px; color:#DFDCE3;">STEVEN'S SIDE PROJECTS</h1>
 <div id="container" style = "text-align:center; padding:25px;">
-<button onclick="location.href='http://swgarverick.github.io/simpleGame';" style = "background:#F7B733; text-color:#DFDCE3; width:125px; height:75px;">SNAKE</button>
+<button class="button snake" onclick="location.href='http://swgarverick.github.io/simpleGame';">SNAKE</button>
 </div>
 </body>
 </html>
